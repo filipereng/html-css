@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+
+}
+
+body {
+    text-align: center;
+}
+#p:hover {
+    color: blue;
+    background-color: red;
+    
+}
+
+#h1s {
+    color: red;
+    background-color: blue;
+}
+
+h2 {
+    color: green;
+    background-color: red;
+}
+
+.p {
+    color: indigo;
+    background-color: yellow;
+
+}

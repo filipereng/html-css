@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*div {
+    text-align: center;
+    background-color: rgb(46, 117, 141);
+    height: 200px;
+    width: 200px;
+    border: 1px solid black ;
+}
+div:hover {
+    background-color: deeppink;
+}
+#d2:hover {
+    background-color: blue;
+}
+.d3:hover {
+    background-color: black;
+}*/
+
+div > p {
+   display: none; 
+}
+div:hover {
+    color: red;
+}
+div:hover > p {
+    display: block;
+    color: aqua;
+    background-color: chartreuse;
+}

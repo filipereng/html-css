@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+
+}
+body {
+    background-image: linear-gradient(to left, blue, white);
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+main {
+    box-shadow: 10px red;
+    background-color: white;
+    margin: auto;
+    
+}

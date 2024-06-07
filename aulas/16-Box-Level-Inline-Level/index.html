@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas BOX-LEVEL e INLINE-LEVEL</title>
+</head>
+<body>
+
+    <style>
+        /*box level*/
+        /*h1 pode virar display: inline;*/
+        h1 {
+            background-color: blue;
+            height: 150px;
+            width: 200px;
+            border: 5px solid black;
+            margin: 10px 10px 10px 10px;/*elemento invisivel fora da caixa azul*/
+            position: absolute;/*posição do elemento(caixa azul)*/
+            bottom: 40px;
+            left: 30px;
+            padding: 10px 10px 10px 10px;/*preenchimento*/
+        }
+        /*inline level*/
+        /*a pode virar display: block;*/
+        a {
+            border: 5px solid red;
+            padding: 10px;
+        }
+        .q {
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            right: 30px;
+            margin-top: 20px;
+            outline: 10px dashed lime;
+        }
+
+        
+
+    </style>
+
+    <div class="q">QUADRADO</div>
+
+    <h1 class="text">OLÁ MUNDO, AQUI É O BOX LEVEL</h1>
+
+    <p>paragrafos tambem são exemplos de box-lvl, mas os <a href="#">links são exemplos de caixas inline-lvl</a> Vamos ver tudo isso agora</p>
+
+    
+    
+       <!--<h2>background-color: blue;</h2>
+        <h2>height: 300px;</h2>
+        <h2>width: 300px;</h2>
+        <h2>border-color: black;</h2>
+        <h2>border-width: 15px;</h2>
+        <h2>border-style: solid;</h2>
+        <h2>padding: 15px;</h2>-->
+    
+</body>
+</html>
