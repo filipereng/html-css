@@ -102,7 +102,52 @@
             <label for="iarq">Foto do perfil </label>
             <input type="file" name="arquivo" id="iarq">
 
-        </fieldset>
+        </fieldset><br>
+
+        <label for="ilis">Lista de jogos</label>
+
+     <select name="lista" id="ilis">
+
+
+       <option value="" selected >Escolha seu jogo</option>
+        <optgroup label="Melhores jogos">
+
+            <option value="DKC">DonkeyKong</option>
+            <option value="NFS">NeedForSpeed2</option>
+            <option value="MrB">MarioBros</option>
+            <option value="MgmX">MegamanX</option>
+            <option value="SH">SilentHell</option>
+
+        </optgroup>
+
+        <optgroup label="Top jogos">
+
+            <option value="CB">CrashBandiccot</option>
+            <option value="NFSW">NeedForSpeedWanted</option>
+            <option value="MrW">MarioWorld</option>
+            <option value="MgmX5">MegamanX5</option>
+            <option value="RE3" selected >ResidentEvil</option>
+
+        </optgroup>
+
+        <label for="ijog">Jogos</label>
+        <input type="text" name="jog" id="ijog" list="lstjogos">
+
+        <datalist id="lstjogos">
+
+            <option>MegamanX</option>
+            <option>ResidentEvil3</option>
+            <option>DonkeyKong</option>
+            <option>SuperMarioWolrd</option>
+            <option>HarryPotter</option>
+
+        </datalist>
+
+        <label for="imsg">Mensagem</label>                 <br><br><br>
+
+        <textarea name="msg" id="imsg" cols="30" rows="10">Sua mensagem aqui...</textarea>
+
+    </select>
 
     </form>
 
