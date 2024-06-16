@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body style="background-color: grey;">
+
+    <h1>Form, Button, Input etc...</h1>
+
+    <form action="cadastro.JS" method="POST" autocomplete="on">
+
+        <fieldset>
+
+            <legend>Dados pessoais do cadastro</legend>
+
+            <p><label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Nome" minlength="6" maxlength="15" autocomplete="username"></p>
+
+            <p><label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome"></p>
+
+                <p><label for="ie-mail">Email:</label>
+                <input type="email" name="e-mail" id="ie-mail" autocomplete="email" placeholder="E-mail"></p>
+
+                <p><label for="itel">Telefone</label>
+                <input type="tel" name="telefone" id="itel" autocomplete="tel" placeholder="Telefone" pattern="^\(\d{2}\d{4,5}-\d{4}$)" required></p>
+
+            <p><label for="isen">Senha:</label>
+                <input type="password" name="senha" id="isen" required minlength="8" maxlength="10" placeholder="Senha" autocomplete="current-password"></p>
+
+               <p><label for="imes">Mês</label>
+                <input type="month" name="mes" id="imes" value="1993-12-19"></p>
+
+                <p><label for="idat">Dia</label>
+                    <input type="date" name="data" id="idat" value="1993-12-19"></p>
+
+            <p><label for="inum">Numeros</label>
+                    <input type="number" name="numero" id="inum" min="0" max="10" placeholder="0 a 10" step="0,5" required></p>
+
+                <input type="checkbox" name="caixa" id="box">
+
+                <input type="radio" name="bolinha" id="ball">
+
+        </fieldset><br>
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Limpar">
+
+        <h1>Checkbox e Radio button</h1>
+
+        <fieldset>
+
+            <legend>Jogos</legend>
+            <label for="ijogmeg"><input type="checkbox" name="jogmeg" id="ijogmeg" checked>MegamanX<br></label>
+
+            <label for="ijogfut"><input type="checkbox" name="jogfut" id="ijogfut">Futebol<br></label>
+
+            <label for="ijogsil"><input type="checkbox" name="jogsil" id="ijogsil">SilentHell<br></label>
+
+            <label for="ijogdon"><input type="checkbox" name="jogdon" id="ijogdon">DonkeyKong<br></label>
+
+            <label for="ijogmar"><input type="checkbox" name="jogmar" id="ijogmar">Mario<br></label>
+
+            <label for="ijogned"><input type="checkbox" name="jogned" id="ijogned">NeedForSpeed2<br></label>
+
+
+            <input type="checkbox" name="jogxxx" id="ijog">
+            <label for="ijog">XXX</label>
+                
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="isxmas">
+            <label for="isxmas">Masculino</label>
+            
+            <input type="radio" name="sexo" id="isxfem">
+            <label for="isxfem">Feminino</label>
+            
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Tabela</legend>
+
+            <label for="icor">Escolha a cor </label>
+            <input type="color" name="cor" id="icor" value="#15ff11"><br><br>
+
+            <label for="iniv">Nivel de satisfação </label>
+            <input type="range" name="nivel" id="iniv" min="5" max="20" value="3"><br><br>
+
+            <label for="iima">Imagem do perfil </label>
+            <input type="image" name="imagem" id="iima"><br><br>
+
+            <label for="iarq">Foto do perfil </label>
+            <input type="file" name="arquivo" id="iarq">
+
+        </fieldset>
+
+    </form>
+
+    
+</body>
+
+<footer>
+    <p>label (rótulo/nome para um botão)</p>
+    <p>input (botão ou caixa que tem vários tipos como text, number, e-mail, celphone, date, etc)... </p>
+</footer>
+</html>
