@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* Paisagem */
 
+
 body {
-    background-color: orange;
+    background-image: url(../imagensmq2/cev-landscape.jpg);
+    background-position: left bottom;
 }
+
+
